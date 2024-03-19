@@ -70,7 +70,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   console.log(to);
-  document.title = to.meta.title;
+  if(typeof to.meta.title === 'string') document.title = to.meta.title;
   next();
 });
 

@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-light" role="navigation" aria-label="main-navigation">
       <div class="container">
         <router-link class="navbar-brand img-responsive text-start" to="/">
-          <span><img src="logoblack.png" class="img-fluid" alt="Company Logo"></span>
+          <span><img src="/logoblack.png" class="img-fluid" alt="Company Logo"></span>
         </router-link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
