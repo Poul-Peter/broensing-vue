@@ -1,11 +1,9 @@
 {
-  "name": "mdb-vue-app",
+  "name": "broensing-vue",
   "version": "4.1.1",
-  "type": "module",
-  "homepage": "https://mdbootstrap.com/docs/b5/vue/",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "start": "vite --open"
   },

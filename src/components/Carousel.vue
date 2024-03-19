@@ -27,9 +27,9 @@ export default {
   name: 'Carousel',
   setup() {
     const slides = ref([
-      {'src': 'slides/slide1.webp', title:'Slide 1 title text', text: 'Slide 1 description text'},
-      {'src': 'slides/slide2.webp', title:'Slide 2 title text', text: 'Slide 2 description text'},
-      {'src': 'slides/slide3.webp', title:'Slide 3 title text', text: 'Slide 3 description text'},
+      {'src': '/slides/slide1.webp', title:'Slide 1 title text', text: 'Slide 1 description text'},
+      {'src': '/slides/slide2.webp', title:'Slide 2 title text', text: 'Slide 2 description text'},
+      {'src': '/slides/slide3.webp', title:'Slide 3 title text', text: 'Slide 3 description text'},
     ])
     return { slides };
   }
